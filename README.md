@@ -1,4 +1,4 @@
-# TAOCP-Solutions
+# TAOCP Solutions Manual
 You can get the PDF [here](https://github.com/QuantamHD/TAOCP-Solutions/releases/download/0.0.1/main.pdf)
 
 The solutions to exercises in Donald Knuth's "The Art of Computer Programming".
