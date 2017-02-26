@@ -1,0 +1,24 @@
+\providecommand{\main}{..}
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+  \subsubsection{Solutions to Exercises}
+    \begin{enumerate}
+      \item This should be the minimum number of replacements. Just as a comment this
+      is basically emulating a shift register.
+
+        \begin{equation*}
+          \begin{split}
+            t &\leftarrow a\\
+            a &\leftarrow b\\
+            b &\leftarrow c\\
+            c &\leftarrow d\\
+            d &\leftarrow t\\
+          \end{split}
+        \end{equation*}
+
+        As you can see this will result in $(b,c,d,a)$.
+
+    \end{enumerate}
+
+\end{document}
