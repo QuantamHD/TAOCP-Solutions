@@ -19,6 +19,26 @@
 
         As you can see this will result in $(b,c,d,a)$.
 
+      \item We will define a run of an algorithm as each recursive call to the algorithm in question.
+
+      \begin{theorem}
+        If it is not the first run of the \textbf{Algorithm E}, then $m \geq n$.
+      \end{theorem}
+
+      \begin{proof}
+        We will show with a proof by contradiction that if it is not first run of \textbf{Algorithm E}
+        then $m \geq n$. We will label each successive run of the \textbf{Algorithm E} as a natural number
+        $q$ starting from 1. We will assume that on a given run $q > 1$ that $m < n$ at step \textbf{E1}.
+
+        \par If $m < n$ then we know that the result of step \textbf{E3} at run $q-1$ resulted in $m < n$. For that
+        to have been the case we know that after step \textbf{E1} on run $q-1$, $n$ must be less than $r$. However
+        this contradicts the condition that after step \textbf{E1}
+        \begin{equation*}
+          0 \leq r < n.
+        \end{equation*}
+
+        Thus by contradiction we have shown that if is not the first run of \textbf{Algorithm E} then $m \geq n$.
+      \end{proof}
     \end{enumerate}
 
 \end{document}
